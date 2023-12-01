@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #d4ccc1;
+}
+
+.cabecalho{
+    
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        padding-top: 10px;
+        height: 210px;
+        background-color: #495652;
+    
+}
+
+.navigator {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 5px;
+    gap: 0px
+    
+    
+    
+}
+
+.botao-cabeca {
+    width: 35px;
+    height: 40px;
+    background-color: #d4ccc1;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-right: 10px;
+    color: #495652;
+    font-size: 24px;
+    transition: 0.5s;
+    
+}
+
+.botao-cabeca:hover{
+    background-color: gray;
+}
+
+.cabecalho img{
+    height: 200px;
+    border-radius: 5px;
+}
+
+.principal{
+    background-color: #495652;
+    max-width: 880px;
+    min-width: 320px;
+    margin-top: 0px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    box-shadow: 0 0.1rem 0.5rem #495652 ;
+    position: relative;
+    flex-direction: row;
+    border-radius: 3px;
+    padding: 30px;
+    
+}
+
+.texto-principal p{
+    max-width: 300px;
+    text-align: left;
+    font-size: 22px;
+    margin: 0 auto;
+    color: white;
+
+}
+
+.texto-cabeca{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    text-shadow:1px 1px #495652;
+    text-align: center;
+    color: #a37f38;
+}
+
+.formulario-main {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #00639b;
+    color: white;
+    width: 300px
+    
+
+}
+
+.container {
+    max-width: 50%;
+    background-color: #a37f38;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    max-width: 400px;
+    max-height: 500px;
+
+}
+
+form {
+    background-color: white;
+    max-width: 100%;
+    height: 450px;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+form h1{
+    text-align: center;
+    font-size: 40px;
+    color: #a37f38;
+    font-family: Arial;
+}
+
+form p{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-family: Arial;
+
+}
+
+.input-single {
+    position: relative;
+    margin: 30px 0;
+}
+
+.input-single label {
+    transition: all 0.2s;
+    cursor: text;
+    position: absolute;
+    left: 0;
+    bottom: 5px
+    
+}
+
+.input {
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid #d4ccc1 ;
+    padding: 5px;
+    font-size: 17px;
+    outline: none;
+}
+
+form .input-single .input:focus ~ label, 
+form .input-single .input:valid ~ label{
+    transform: translateY(-24px);
+    font-size: 12px;
+    color: #495652;
+}
+
+.button {
+    width: 100%;
+    text-align: center;
+}
+
+form input[type=submit] {
+    padding: 10px 40px;
+    border: 0;
+    border-radius: 10px;
+    background-color: #a37f38;
+    color: white;
+    cursor: pointer;
+}
+
+.form-container {
+    display: flex;
+
+}
+
+.imagem-form {
+    opacity: 80%;
+    border-right:#a37f38;
+    border-radius: 0;
+}
+
+.texto-formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 50px;
+}
+
+.textoform{
+    color: #a37f38;
+    font-family: 'Edu TAS Beginner', cursive;
+    width: 200px;
+    font-size: 32px;
+}
+
+.secao-2{
+    max-width: 880px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.secao-2 p{
+    text-align: center;
+    color: #495652;
+    font-size: 18px;
+}
+
+.fotos-sec2 img{
+    max-width: 100%;
+    box-shadow: 1px 1px #495652;
+}
+
+.estrutura{
+    width: 100%;
+    margin-top: -35px;
+}
+
+.galeria{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 10px;
+    max-width: 880px;
+    margin: 0 auto;
+
+}
+
+.galeria p{
+    font-size: 32px;
+    color: #a37f38;
+    margin-top: 30px;
+}
+
+.galeria img{
+    width: 100%;
+    box-shadow: 0 0.1rem 0.5rem #495652 ;
+}
+
+.slider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+    margin-bottom: -30px;
+    margin-top: -30px;
+}
+
+.slides{
+    width: 600%;
+    height: 280px;
+    display: flex;
+}
+
+.slides img{
+    width: 880px;
+}
+
+.slides input{
+    display: none;
+}
+
+.slide{
+    width: 16.6%;
+    position: relative;
+    transition: 2s;
+}
+
+.manual-navigation{
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn{
+    border: 2px solid #fff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+
+.manual-btn:hover{
+    background-color: #fff;
+}
+
+#radio1:checked ~ .first{
+    margin-left: 42%;
+}
+
+#radio2:checked ~ .first{
+    margin-left: 25.1%;
+}
+
+#radio3:checked ~ .first{
+    margin-left: 8.5%;
+}
+
+#radio4:checked ~ .first{
+    margin-left: -8.1%;
+}
+
+#radio5:checked ~ .first{
+    margin-left: -24.7%;
+}
+
+#radio6:checked ~ .first{
+    margin-left: -41.4%;
+}
+
+.navigation-auto div{
+    border: 2px solid #20a6ff;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.navigation-auto{
+    position: absolute;
+    width: 800px;
+    margin-top: 360px;
+    display: flex;
+    justify-content: center;
+}
+
+.botao-footer{
+    color: white;
+    background-color: #a37f38;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+    transition: 0.5s;
+}
+
+.botao-footer:hover{
+    background-color: #495652;
+}
+
+.rodape{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    justify-content: space-around;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)),
+    url(Imagens/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0px;
+}
+
+.rodape img{
+    width: 400px;
+    
+}
